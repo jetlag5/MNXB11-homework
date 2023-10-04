@@ -1,6 +1,10 @@
 once upon a time
 there was an **incredible** _dragon_
 
+Although it wouldn't avoid a fight, it was kind of an artist itself.
+
+Below an example of one of its songs:
+
 ```
                          ^                       ^
                          |\   \        /        /|
