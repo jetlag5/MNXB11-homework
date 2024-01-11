@@ -1,0 +1,111 @@
+khenols@cosmos1:~/git/MNXB11-homework/henolsHW5\[?2004h[henols@cosmos1 henolsHW5]$ sbatch henols-homework5-solution.sh 
+[?2004lSubmitted batch job 242116
+khenols@cosmos1:~/git/MNXB11-homework/henolsHW5\[?2004h[henols@cosmos1 henolsHW5]$ sbatch henols-homework5-solution.sh 
+[?2004lSubmitted batch job 242117
+khenols@cosmos1:~/git/MNXB11-homework/henolsHW5\[?2004h[henols@cosmos1 henolsHW5]$ sbatch henols-homework5-solution.sh 
+[?2004lSubmitted batch job 242118
+khenols@cosmos1:~/git/MNXB11-homework/henolsHW5\[?2004h[henols@cosmos1 henolsHW5]$ sbatch henols-homework5-solution.sh 
+[?2004lSubmitted batch job 242119
+khenols@cosmos1:~/git/MNXB11-homework/henolsHW5\[?2004h[henols@cosmos1 henolsHW5]$ squeue --me
+[?2004l             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+            242119      lu48 info for   henols  R       0:13      1 cn012
+            242118      lu48 info for   henols  R       0:20      1 cn012
+            242117      lu48 info for   henols  R       0:26      1 cn012
+            242116      lu48 info for   henols  R       0:31      1 cn012
+khenols@cosmos1:~/git/MNXB11-homework/henolsHW5\[?2004h[henols@cosmos1 henolsHW5]$ scancel 242118
+[?2004lkhenols@cosmos1:~/git/MNXB11-homework/henolsHW5\[?2004h[henols@cosmos1 henolsHW5]$ squee[Kue --me
+[?2004l             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+            242119      lu48 info for   henols  R       0:43      1 cn012
+            242117      lu48 info for   henols  R       0:56      1 cn012
+            242116      lu48 info for   henols  R       1:01      1 cn012
+khenols@cosmos1:~/git/MNXB11-homework/henolsHW5\[?2004h[henols@cosmos1 henolsHW5]$ sqeu[K[Kueue --job s[K242119,242117,1[K252116[C[1P211642116[C[C[C
+[?2004l             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+            242119      lu48 info for   henols  R       1:20      1 cn012
+            242117      lu48 info for   henols  R       1:33      1 cn012
+            242116      lu48 info for   henols  R       1:38      1 cn012
+khenols@cosmos1:~/git/MNXB11-homework/henolsHW5\[?2004h[henols@cosmos1 henolsHW5]$ scancel 242117
+[?2004lkhenols@cosmos1:~/git/MNXB11-homework/henolsHW5\[?2004h[henols@cosmos1 henolsHW5]$ squeue --me
+[?2004l             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+            242119      lu48 info for   henols  R       1:55      1 cn012
+            242116      lu48 info for   henols  R       2:13      1 cn012
+khenols@cosmos1:~/git/MNXB11-homework/henolsHW5\[?2004h[henols@cosmos1 henolsHW5]$ scontrol show job 242119 [K,242116 -d
+[?2004lscontrol_print_job error: Invalid job id specified
+khenols@cosmos1:~/git/MNXB11-homework/henolsHW5\[?2004h[henols@cosmos1 henolsHW5]$ scontrol show job 242119,242116 -d[1P -d[1P -d[1P -d[1P -d[1P -d[1P -d[1P -d
+[?2004lJobId=242119 JobName=info for HW5
+   UserId=henols(32213) GroupId=mnxb11(32200) MCS_label=N/A
+   Priority=68168 Nice=0 Account=lu2023-7-4 QOS=normal
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=00:02:23 TimeLimit=00:06:00 TimeMin=N/A
+   SubmitTime=2024-01-11T14:20:32 EligibleTime=2024-01-11T14:20:32
+   AccrueTime=2024-01-11T14:20:32
+   StartTime=2024-01-11T14:20:32 EndTime=2024-01-11T14:26:32 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2024-01-11T14:20:32 Scheduler=Main
+   Partition=lu48 AllocNode:Sid=cosmos1:668485
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=cn012
+   BatchHost=cn012
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=1,mem=5300M,node=1,billing=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   JOB_GRES=(null)
+     Nodes=cn012 CPU_IDs=4 Mem=5300 GRES=
+   MinCPUsNode=1 MinMemoryCPU=5300M MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/home/henols/git/MNXB11-homework/henolsHW5/henols-homework5-solution.sh
+   WorkDir=/home/henols/git/MNXB11-homework/henolsHW5
+   StdErr=/home/henols/git/MNXB11-homework/henolsHW5/slurm-242119.out
+   StdIn=/dev/null
+   StdOut=/home/henols/git/MNXB11-homework/henolsHW5/slurm-242119.out
+   Power=
+   
+
+khenols@cosmos1:~/git/MNXB11-homework/henolsHW5\[?2004h[henols@cosmos1 henolsHW5]$ scontrol show job 242119 -d[1P -d6 -d
+[?2004lJobId=242116 JobName=info for HW5
+   UserId=henols(32213) GroupId=mnxb11(32200) MCS_label=N/A
+   Priority=68168 Nice=0 Account=lu2023-7-4 QOS=normal
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=00:02:45 TimeLimit=00:06:00 TimeMin=N/A
+   SubmitTime=2024-01-11T14:20:14 EligibleTime=2024-01-11T14:20:14
+   AccrueTime=2024-01-11T14:20:14
+   StartTime=2024-01-11T14:20:14 EndTime=2024-01-11T14:26:14 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2024-01-11T14:20:14 Scheduler=Main
+   Partition=lu48 AllocNode:Sid=cosmos1:668485
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=cn012
+   BatchHost=cn012
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=1,mem=5300M,node=1,billing=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   JOB_GRES=(null)
+     Nodes=cn012 CPU_IDs=0 Mem=5300 GRES=
+   MinCPUsNode=1 MinMemoryCPU=5300M MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/home/henols/git/MNXB11-homework/henolsHW5/henols-homework5-solution.sh
+   WorkDir=/home/henols/git/MNXB11-homework/henolsHW5
+   StdErr=/home/henols/git/MNXB11-homework/henolsHW5/slurm-242116.out
+   StdIn=/dev/null
+   StdOut=/home/henols/git/MNXB11-homework/henolsHW5/slurm-242116.out
+   Power=
+   
+
+khenols@cosmos1:~/git/MNXB11-homework/henolsHW5\[?2004h[henols@cosmos1 henolsHW5]$ squeue --me
+[?2004l             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+            242119      lu48 info for   henols  R       2:39      1 cn012
+            242116      lu48 info for   henols  R       2:57      1 cn012
+khenols@cosmos1:~/git/MNXB11-homework/henolsHW5\[?2004h[henols@cosmos1 henolsHW5]$ squeue --me
+[?2004l             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+            242119      lu48 info for   henols  R       4:12      1 cn012
+            242116      lu48 info for   henols  R       4:30      1 cn012
+khenols@cosmos1:~/git/MNXB11-homework/henolsHW5\[?2004h[henols@cosmos1 henolsHW5]$ squeue --me
+[?2004l             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+            242119      lu48 info for   henols  R       4:51      1 cn012
+khenols@cosmos1:~/git/MNXB11-homework/henolsHW5\[?2004h[henols@cosmos1 henolsHW5]$ squeue --me
+[?2004l             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+khenols@cosmos1:~/git/MNXB11-homework/henolsHW5\[?2004h[henols@cosmos1 henolsHW5]$ exit
+[?2004lexit

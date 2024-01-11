@@ -1,0 +1,65 @@
+hostname:
+cn012
+uptime info:
+ 14:20:26 up 66 days,  1:11,  0 users,  load average: 9.02, 7.93, 5.36
+memory info:
+MemTotal:       263183136 kB
+MemFree:        112760316 kB
+MemAvailable:   167620828 kB
+Buffers:          162216 kB
+Cached:         56403848 kB
+SwapCached:       188656 kB
+Active:          9713436 kB
+Inactive:       128530796 kB
+Active(anon):     839944 kB
+Inactive(anon): 80887184 kB
+Active(file):    8873492 kB
+Inactive(file): 47643612 kB
+Unevictable:     8391696 kB
+Mlocked:         8388624 kB
+SwapTotal:       4194300 kB
+SwapFree:         838524 kB
+Zswap:                 0 kB
+Zswapped:              0 kB
+Dirty:               200 kB
+Writeback:             0 kB
+AnonPages:      89738680 kB
+Mapped:           665212 kB
+Shmem:             48960 kB
+KReclaimable:     681240 kB
+Slab:            1369088 kB
+SReclaimable:     681240 kB
+SUnreclaim:       687848 kB
+KernelStack:       21072 kB
+PageTables:       192564 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    135785868 kB
+Committed_AS:   99806924 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      535752 kB
+VmallocChunk:          0 kB
+Percpu:           475136 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:  59082752 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      480804 kB
+DirectMap2M:    27428864 kB
+DirectMap1G:    240123904 kB
+amount of entries in /etc:
+267
+amount of entries in /usr/bin:
+1640
+slurmstepd: error: *** JOB 242118 ON cn012 CANCELLED AT 2024-01-11T14:21:06 ***
