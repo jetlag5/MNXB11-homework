@@ -2,7 +2,7 @@
 #SBATCH -J "info for HW5"
 # added a timer in case something unexpected happens. Should never come into play.
 #SBATCH --time=00:05:30
-#SBATCH -A lu2023-7-4
+#SBATCH -A lu2024-7-11
 
 #simple script to gather computer datas
 echo hostname:
