@@ -1,0 +1,66 @@
+hostname:
+cn076
+uptime info:
+ 13:29:51 up 146 days, 45 min,  1 user,  load average: 46.10, 46.08, 45.73
+memory info:
+MemTotal:       263179188 kB
+MemFree:        236916700 kB
+MemAvailable:   238725572 kB
+Buffers:         1612408 kB
+Cached:          1413824 kB
+SwapCached:        14244 kB
+Active:          2705052 kB
+Inactive:       10853292 kB
+Active(anon):     303664 kB
+Inactive(anon): 10354604 kB
+Active(file):    2401388 kB
+Inactive(file):   498688 kB
+Unevictable:     8388608 kB
+Mlocked:         8388608 kB
+SwapTotal:       4194300 kB
+SwapFree:        3755576 kB
+Zswap:                 0 kB
+Zswapped:              0 kB
+Dirty:                24 kB
+Writeback:             0 kB
+AnonPages:      18911460 kB
+Mapped:           398520 kB
+Shmem:            126152 kB
+KReclaimable:     468708 kB
+Slab:            1366948 kB
+SReclaimable:     468708 kB
+SUnreclaim:       898240 kB
+KernelStack:       25456 kB
+PageTables:        51924 kB
+SecPageTables:         0 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    135783892 kB
+Committed_AS:   26416548 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      652172 kB
+VmallocChunk:          0 kB
+Percpu:           221184 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:  17727488 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      839204 kB
+DirectMap2M:    35459072 kB
+DirectMap1G:    231735296 kB
+amount of entries in /etc:
+273
+amount of entries in /usr/bin:
+1713
+slurmstepd: error: *** JOB 807784 ON cn076 CANCELLED AT 2024-07-23T13:30:08 ***

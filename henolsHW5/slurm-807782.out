@@ -1,0 +1,65 @@
+hostname:
+cn004
+uptime info:
+ 13:29:45 up 145 days,  3:03,  8 users,  load average: 92.62, 90.35, 89.30
+memory info:
+MemTotal:       263179148 kB
+MemFree:        225785668 kB
+MemAvailable:   228941296 kB
+Buffers:          979812 kB
+Cached:          3608012 kB
+SwapCached:        34516 kB
+Active:          3035216 kB
+Inactive:       21608740 kB
+Active(anon):     539168 kB
+Inactive(anon): 19809144 kB
+Active(file):    2496048 kB
+Inactive(file):  1799596 kB
+Unevictable:     8388608 kB
+Mlocked:         8388608 kB
+SwapTotal:       4194300 kB
+SwapFree:        3813380 kB
+Zswap:                 0 kB
+Zswapped:              0 kB
+Dirty:               124 kB
+Writeback:             0 kB
+AnonPages:      28401172 kB
+Mapped:          1648600 kB
+Shmem:            292180 kB
+KReclaimable:     477580 kB
+Slab:            1526256 kB
+SReclaimable:     477580 kB
+SUnreclaim:      1048676 kB
+KernelStack:       35824 kB
+PageTables:        88168 kB
+SecPageTables:         0 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    135783872 kB
+Committed_AS:   35520704 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      697892 kB
+VmallocChunk:          0 kB
+Percpu:           224000 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:  20709376 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      843300 kB
+DirectMap2M:    49086464 kB
+DirectMap1G:    218103808 kB
+amount of entries in /etc:
+268
+amount of entries in /usr/bin:
+1682
